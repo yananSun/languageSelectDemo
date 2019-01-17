@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35907DC6CE61300025F53A10 /* libPods-LanguageSelectDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4849605E42978F19354ED54B /* libPods-LanguageSelectDemo.a */; };
 		78B5ED9621EF16CF0071B5ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B5ED9521EF16CF0071B5ED /* AppDelegate.m */; };
 		78B5ED9921EF16CF0071B5ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B5ED9821EF16CF0071B5ED /* ViewController.m */; };
 		78B5ED9C21EF16CF0071B5ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78B5ED9A21EF16CF0071B5ED /* Main.storyboard */; };
@@ -15,6 +16,12 @@
 		78B5EDA421EF16D10071B5ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B5EDA321EF16D10071B5ED /* main.m */; };
 		78B5EDAE21EF16D10071B5ED /* LanguageSelectDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B5EDAD21EF16D10071B5ED /* LanguageSelectDemoTests.m */; };
 		78B5EDB921EF16D10071B5ED /* LanguageSelectDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B5EDB821EF16D10071B5ED /* LanguageSelectDemoUITests.m */; };
+		78B5EDC921EF171C0071B5ED /* HDLanguageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B5EDC821EF171C0071B5ED /* HDLanguageCell.m */; };
+		78B5EDD221EF19E70071B5ED /* UILabel+Style.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B5EDD121EF19E70071B5ED /* UILabel+Style.m */; };
+		78B5EDD521EF19ED0071B5ED /* UIView+Style.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B5EDD421EF19ED0071B5ED /* UIView+Style.m */; };
+		78B5EDD621EF1C5D0071B5ED /* MainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B5EDCF21EF172F0071B5ED /* MainModel.m */; };
+		78B5EDD721EF1C770071B5ED /* LanguageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B5EDCE21EF172F0071B5ED /* LanguageModel.m */; };
+		78B5EDD821EF1D0A0071B5ED /* language.plist in Resources */ = {isa = PBXBuildFile; fileRef = 78B5EDCA21EF17290071B5ED /* language.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +42,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3004982995F61B7225109E0E /* Pods-LanguageSelectDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LanguageSelectDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LanguageSelectDemo/Pods-LanguageSelectDemo.release.xcconfig"; sourceTree = "<group>"; };
+		4849605E42978F19354ED54B /* libPods-LanguageSelectDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LanguageSelectDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		78B5ED9121EF16CF0071B5ED /* LanguageSelectDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LanguageSelectDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78B5ED9421EF16CF0071B5ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		78B5ED9521EF16CF0071B5ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		78B5ED9721EF16CF0071B5ED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		78B5ED9821EF16CF0071B5ED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		78B5ED9821EF16CF0071B5ED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; wrapsLines = 0; };
 		78B5ED9B21EF16CF0071B5ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		78B5ED9D21EF16D10071B5ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78B5EDA021EF16D10071B5ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +60,18 @@
 		78B5EDB421EF16D10071B5ED /* LanguageSelectDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LanguageSelectDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		78B5EDB821EF16D10071B5ED /* LanguageSelectDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LanguageSelectDemoUITests.m; sourceTree = "<group>"; };
 		78B5EDBA21EF16D10071B5ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78B5EDC721EF171C0071B5ED /* HDLanguageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDLanguageCell.h; sourceTree = "<group>"; };
+		78B5EDC821EF171C0071B5ED /* HDLanguageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDLanguageCell.m; sourceTree = "<group>"; };
+		78B5EDCA21EF17290071B5ED /* language.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = language.plist; sourceTree = "<group>"; };
+		78B5EDCC21EF172F0071B5ED /* LanguageModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LanguageModel.h; sourceTree = "<group>"; };
+		78B5EDCD21EF172F0071B5ED /* MainModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainModel.h; sourceTree = "<group>"; };
+		78B5EDCE21EF172F0071B5ED /* LanguageModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LanguageModel.m; sourceTree = "<group>"; };
+		78B5EDCF21EF172F0071B5ED /* MainModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainModel.m; sourceTree = "<group>"; };
+		78B5EDD021EF19E70071B5ED /* UILabel+Style.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+Style.h"; sourceTree = "<group>"; };
+		78B5EDD121EF19E70071B5ED /* UILabel+Style.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Style.m"; sourceTree = "<group>"; };
+		78B5EDD321EF19ED0071B5ED /* UIView+Style.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Style.h"; sourceTree = "<group>"; };
+		78B5EDD421EF19ED0071B5ED /* UIView+Style.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Style.m"; sourceTree = "<group>"; };
+		85AB96C9112E6F426011F0C4 /* Pods-LanguageSelectDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LanguageSelectDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LanguageSelectDemo/Pods-LanguageSelectDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35907DC6CE61300025F53A10 /* libPods-LanguageSelectDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +100,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02D170928D85439990C93DE4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				85AB96C9112E6F426011F0C4 /* Pods-LanguageSelectDemo.debug.xcconfig */,
+				3004982995F61B7225109E0E /* Pods-LanguageSelectDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		78B5ED8821EF16CF0071B5ED = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +116,8 @@
 				78B5EDAC21EF16D10071B5ED /* LanguageSelectDemoTests */,
 				78B5EDB721EF16D10071B5ED /* LanguageSelectDemoUITests */,
 				78B5ED9221EF16CF0071B5ED /* Products */,
+				02D170928D85439990C93DE4 /* Pods */,
+				B8B866D48760B932807DA278 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +134,17 @@
 		78B5ED9321EF16CF0071B5ED /* LanguageSelectDemo */ = {
 			isa = PBXGroup;
 			children = (
+				78B5EDD021EF19E70071B5ED /* UILabel+Style.h */,
+				78B5EDD121EF19E70071B5ED /* UILabel+Style.m */,
+				78B5EDD321EF19ED0071B5ED /* UIView+Style.h */,
+				78B5EDD421EF19ED0071B5ED /* UIView+Style.m */,
+				78B5EDCB21EF172F0071B5ED /* Model */,
+				78B5EDC621EF170E0071B5ED /* View */,
 				78B5ED9421EF16CF0071B5ED /* AppDelegate.h */,
 				78B5ED9521EF16CF0071B5ED /* AppDelegate.m */,
 				78B5ED9721EF16CF0071B5ED /* ViewController.h */,
 				78B5ED9821EF16CF0071B5ED /* ViewController.m */,
+				78B5EDCA21EF17290071B5ED /* language.plist */,
 				78B5ED9A21EF16CF0071B5ED /* Main.storyboard */,
 				78B5ED9D21EF16D10071B5ED /* Assets.xcassets */,
 				78B5ED9F21EF16D10071B5ED /* LaunchScreen.storyboard */,
@@ -132,6 +172,34 @@
 			path = LanguageSelectDemoUITests;
 			sourceTree = "<group>";
 		};
+		78B5EDC621EF170E0071B5ED /* View */ = {
+			isa = PBXGroup;
+			children = (
+				78B5EDC721EF171C0071B5ED /* HDLanguageCell.h */,
+				78B5EDC821EF171C0071B5ED /* HDLanguageCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		78B5EDCB21EF172F0071B5ED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				78B5EDCC21EF172F0071B5ED /* LanguageModel.h */,
+				78B5EDCE21EF172F0071B5ED /* LanguageModel.m */,
+				78B5EDCD21EF172F0071B5ED /* MainModel.h */,
+				78B5EDCF21EF172F0071B5ED /* MainModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B8B866D48760B932807DA278 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4849605E42978F19354ED54B /* libPods-LanguageSelectDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +207,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 78B5EDBD21EF16D10071B5ED /* Build configuration list for PBXNativeTarget "LanguageSelectDemo" */;
 			buildPhases = (
+				011B4FA88651A757C6246EFD /* [CP] Check Pods Manifest.lock */,
 				78B5ED8D21EF16CF0071B5ED /* Sources */,
 				78B5ED8E21EF16CF0071B5ED /* Frameworks */,
 				78B5ED8F21EF16CF0071B5ED /* Resources */,
@@ -235,6 +304,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78B5EDD821EF1D0A0071B5ED /* language.plist in Resources */,
 				78B5EDA121EF16D10071B5ED /* LaunchScreen.storyboard in Resources */,
 				78B5ED9E21EF16D10071B5ED /* Assets.xcassets in Resources */,
 				78B5ED9C21EF16CF0071B5ED /* Main.storyboard in Resources */,
@@ -257,14 +327,44 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		011B4FA88651A757C6246EFD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LanguageSelectDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		78B5ED8D21EF16CF0071B5ED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				78B5ED9921EF16CF0071B5ED /* ViewController.m in Sources */,
+				78B5EDD221EF19E70071B5ED /* UILabel+Style.m in Sources */,
 				78B5EDA421EF16D10071B5ED /* main.m in Sources */,
 				78B5ED9621EF16CF0071B5ED /* AppDelegate.m in Sources */,
+				78B5EDD521EF19ED0071B5ED /* UIView+Style.m in Sources */,
+				78B5EDC921EF171C0071B5ED /* HDLanguageCell.m in Sources */,
+				78B5EDD621EF1C5D0071B5ED /* MainModel.m in Sources */,
+				78B5EDD721EF1C770071B5ED /* LanguageModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +533,7 @@
 		};
 		78B5EDBE21EF16D10071B5ED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85AB96C9112E6F426011F0C4 /* Pods-LanguageSelectDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +550,7 @@
 		};
 		78B5EDBF21EF16D10071B5ED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3004982995F61B7225109E0E /* Pods-LanguageSelectDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

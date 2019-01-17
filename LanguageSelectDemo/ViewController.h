@@ -10,6 +10,8 @@
 
 @interface ViewController : UIViewController
 
-
+@property (nonatomic, copy) NSString *navT;
+@property (nonatomic, copy) NSString *selectStr;
+@property (nonatomic, copy) void (^clickAutoHandler)(NSString *selectStr);
 @end
 
